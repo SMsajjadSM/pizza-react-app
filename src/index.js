@@ -66,10 +66,25 @@ function Header() {
 function Menu() {
   return (
     <div className="menu">
-      <h2>Our Menu</h2> <Pizza />
-      <Pizza />
-      <Pizza />
+      <h2>Our Menu</h2>
+      <ul className="pizzas">
+        {pizzaData.map((pizza) => (
+          <Pizza pizzaObj={pizza} />
+        ))}
+      </ul>
     </div>
+  );
+}
+function Pizza(prop) {
+  return (
+    <li className="pizza">
+      <img src={prop.pizzaObj.photoName} alt={prop.pizzaObj.name} />
+      <div>
+        <h3> {prop.pizzaObj.name}</h3>
+        <p> {prop.pizzaObj.ingredients}</p>
+        <span> {prop.pizzaObj.price}</span>
+      </div>
+    </li>
   );
 }
 function Footer() {
@@ -79,21 +94,20 @@ function Footer() {
   const isOpen = hout >= openHours && hout <= closeHours;
   return (
     <footer className="footer">
-      {new Date().toLocaleTimeString()}.We Are Currently Opne!
+      {isOpen && (
+        <div className="order">
+          {" "}
+          <p>
+            {" "}
+            we are open until {closeHours}:00 come visit us or order online{" "}
+          </p>
+          <button className="btn">Order</button>
+        </div>
+      )}
     </footer>
   );
 }
-function Pizza() {
-  return (
-    <div className="pizza">
-      <img src="pizzas/funghi.jpg" alt="pizza funghi" />
-      <div>
-        <h3> Pizza Funghi</h3>
-        <p>Tomato, mozarella, mushrooms, and onion</p>
-      </div>
-    </div>
-  );
-}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
