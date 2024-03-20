@@ -3,7 +3,7 @@
 ## This Wbsite Have New Experience!!
 
 
-[Demo of Parallex](https://smsajjadsm.github.io/Parallex/)
+[Demo of Pizza React App](https://smsajjadsm.github.io/Parallex/)
 ===
 ![plot](./img/1.png)
 ![plot](./img/2.png)
