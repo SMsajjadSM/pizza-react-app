@@ -1,22 +1,10 @@
 
 # Pizza React App
-## This Wbsite Have New Experience!!
 
 
 [Demo of Pizza React App](https://smsajjadsm.github.io/Parallex/)
 ===
 ![plot](./img/1.png)
-![plot](./img/2.png)
-
-
-
-
-
-## Features
-
-- Layered and beautiful user interface
-
-
 
 
 
