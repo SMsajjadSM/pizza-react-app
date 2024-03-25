@@ -16,7 +16,8 @@
 First clone project ...
 
 ```sh
-https://github.com/SMsajjadSM/Parallex.git
+
+https://github.com/SMsajjadSM/pizza-react-app.git
 ```
 
 Install the dependencies and devDependencies
@@ -31,4 +32,4 @@ npm i
 I would appreciate it if you could
 support me by giving me a ⭐
 
-[SMsajjadSM](https://github.com/SMsajjadSM/Parallex)
+[SMsajjadSM](https://github.com/SMsajjadSM/pizza-react-app)
