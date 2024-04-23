@@ -2,7 +2,7 @@
 # Pizza React App
 
 
-[Demo of Pizza React App](https://smsajjadsm.github.io/Parallex/)
+[Demo of Pizza React App](https://smsajjadsm.github.io/pizza-react-app/)
 ===
 ![plot](./img/1.png)
 
