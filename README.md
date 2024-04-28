@@ -3,4 +3,4 @@
 This is my first try with React + Vite 
 
 
-[Demo of Parallex](https://smsajjadsm.github.io/pizza-react-app/)
+[Demo of Pizza-react-app](https://smsajjadsm.github.io/pizza-react-app/)
